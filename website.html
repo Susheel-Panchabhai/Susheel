@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box{
+        background-image: url("bg1.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: large;
+        color: black;
+        transition: .5s;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+     .log ul li a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .log ul li{
+        margin: 10px;
+    }
+
+    nav ul li a:hover{
+        color: brown;
+    }
+
+   
+
+    
+
+</style>
+<body>
+    <div class="box">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="log">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
